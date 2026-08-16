@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cyber: #00f2ff;
+  --color-dark-bg: #0a0a0c;
+  --color-neon-purple: #7d00ff;
+  --font-sans: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Tambahkan sedikit reset agar layar penuh */
+:root {
+  background-color: #0a0a0c;
+  color: #00f2ff;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: 
+    linear-gradient(rgba(0, 242, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 242, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* OIS typography standard */
+html, body, #root, button, input, textarea, select {
+  font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif;
+  line-height: 1.2;
+}
+
+button, input, textarea, select {
+  font-size: 14px;
+}
+
+body {
+  line-height: 1.5;
+}
